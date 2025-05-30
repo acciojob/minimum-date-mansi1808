@@ -1,5 +1,9 @@
 function minDate(dates) {
-  //write you code here
+const datesCopy = [...dates];
+  
+  datesCopy.sort();
+
+  return datesCopy[0];
 }
 
 // Do not change the code
